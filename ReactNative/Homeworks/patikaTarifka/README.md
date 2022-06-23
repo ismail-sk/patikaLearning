@@ -10,3 +10,7 @@ This a patika homework. [More about odev3 homework is here.](https://app.patika.
 <img src="./Readme/example.png" width="250">
 <img src="./Readme/example1.png" width="250">
 <img src="./Readme/example2.png" width="250">
+
+On a real phone via builded apk;
+
+<img src="./Readme/example4.jpg" width="250">
