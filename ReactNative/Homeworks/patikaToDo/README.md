@@ -2,6 +2,8 @@
 ## What this that?
 This a basic todo mobile app build by me via React Native. 
 This project was builded [by me](https://github.com/ismail-sk/patikaLearning/tree/main/ReactNative/Homeworks/patikaToDo) for my practicality exercise.
+Focused in this exercise subjects of; State and Lifecycle.
+
 
 This a patika homework. [More about odev2 homework is here.](https://app.patika.dev/courses/react-native/odev_2)
 
