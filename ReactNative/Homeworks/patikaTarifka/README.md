@@ -16,4 +16,3 @@ This a patika homework. [More about odev3 homework is here.](https://app.patika.
 On a real phone via builded apk;
 
 <img src="./Readme/example4.jpg" width="250">
->>>>>>> ddd019664e7c4e780ac147bf6b2ff1bca576a683
