@@ -1,6 +1,3 @@
-<<<<<<< HEAD
- 
-=======
 # PatikaTarifka APP
 ## What this that?
 This a recipe mobile app build by me via React Native. 
