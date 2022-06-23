@@ -9,3 +9,8 @@ This a patika homework. [More about odev2 homework is here.](https://app.patika.
 
 <img src="./Readme/example.png" width="250">
 <img src="./Readme/example1.png" width="250">
+
+On a real phone via builded apk;
+
+
+<img src="./Readme/example2.jpg" width="250">
