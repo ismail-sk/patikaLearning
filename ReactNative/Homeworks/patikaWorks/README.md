@@ -1,8 +1,8 @@
-# PatikaTarifka APP
+# PatikaWorks APP
 ## What this that?
 A Work find mobile app build by me via React Native. 
 
-Focused nested Neavigation, Web API, Fecht/axios, Redux and promise subjects in this exercise.
+Focused nested Neavigation, Web API, Fecht/axios and Redux subjects in this exercise.
 
 This a patika homework. [More about odev4 homework is here.](https://app.patika.dev/courses/react-native/odev_4)
 
