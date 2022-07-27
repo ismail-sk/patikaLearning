@@ -18,7 +18,7 @@ const ListBuilder = ({listPack, props, isColorSchemaFav = false}) => {
       //console.log("touched", item.id);
       //console.log("listprops1 ",props.route);let prm = true;
       
-      props.navigation.navigate("ItemDetails", [item, isColorSchemaFav]);
+      props.navigation.navigate("ItemDetails");
     }
 
     const FavToggleHandler = (item) => {

@@ -1,0 +1,62 @@
+[
+    {
+      "userId":0,
+      "age": 23,
+      "name": "Test",
+      "surname": "User",
+      "password": "test",
+      "email": "user@test.com",
+      "userName": "Pre-def-Demo",
+      "favorites": []
+    },
+    {
+      "userId":1,
+      "age": 23,
+      "name": "Bird",
+      "surname": "Ramsey",
+      "password": "a",
+      "email": "birdramsey@nimon.com",
+      "userName": "birdramsey",
+      "favorites": []
+    },
+    {
+      "userId":2,
+      "age": 31,
+      "name": "Lillian",
+      "surname": "Burgess",
+      "password": "b",
+      "email": "lillianburgess@luxuria.com",
+      "userName": "lillianburgess",
+      "favorites": []
+    },
+    {
+      "userId":3,
+      "age": 34,
+      "name": "Kristie",
+      "surname": "Cole",
+      "password": "c",
+      "email": "kristiecole@quadeebo.com",
+      "userName": "kristiecole",
+      "favorites": []
+    },
+    {
+      "userId":4,
+      "age": 30,
+      "name": "Leonor",
+      "surname": "Cross",
+      "password": "d",
+      "email": "leonorcross@gronk.com",
+      "userName": "leonorcross",
+      "favorites": []
+    },
+    {
+      "userId":5,
+      "age": 28,
+      "name": "Marsh",
+      "surname": "Mccall",
+      "password": "e",
+      "email": "marshmccall@ultrimax.com",
+      "userName": "marshmccall",
+      "favorites": []
+    }
+  ]
