@@ -6,13 +6,15 @@ import { Shadow } from 'react-native-shadow-2';
 
 
 const Results = ({props}) => {
+
+    /* favorili, şu kişinin paylaştığı vb. gibi filtreleme paremetleri uygulanacak */
 const listItem = ({ item, index, separators }) => {
 return (
 <View style={{marginHorizontal:10, marginVertical:15}}>
     <Shadow viewStyle={{alignSelf: 'stretch'}}>
         <TouchableOpacity index={index} style={styles.box} activeOpacity={0.6}
             onPress={() =>
-            props.navigation.navigate("DetailsPage", {theparam: item.country})}>
+            props.navigation.navigate("DetailsPage", {theparam: item})}>
             <>
                 <Text style={styles.title}>{item.title}</Text>
 

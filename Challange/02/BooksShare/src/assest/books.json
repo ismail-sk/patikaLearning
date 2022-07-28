@@ -68,9 +68,9 @@
       "pages": 272,
       "title": "The Book of Disquiet",
       "year": 1928,
-      "likes": 4
-,
-"sharedBy": 0     },
+      "likes": 4,
+      "sharedBy": 0
+    },
     { "id": 7,
       "author": "Edgar Allan Poe",
       "country": "United States",
@@ -92,9 +92,9 @@
       "pages": 2408,
       "title": "In Search of Lost Time",
       "year": 1920,
-      "likes": 1
-,
-"sharedBy": 0     },
+      "likes": 1,
+      "sharedBy": 0
+    },
     { "id": 9,
       "author": "Fran\u00e7ois Rabelais",
       "country": "France",

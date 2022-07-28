@@ -19,6 +19,16 @@ const Tab = createBottomTabNavigator();
 const HomeStack = createNativeStackNavigator();
 
 const HomeWindow = () => {
+  /* HomeStack hakkında açıklamalar;
+  HomePage.js: tüm paylaşılan kitapların keşfedilebileceği alan. FireBase.DB kullanılarak depolanacaklar(şu anlık Json)
+
+  DetailsPage.js: dokunulan kutu daki kitap hakkında daha fazla bilgi için açılan sayfa
+
+  ProfilePage.Js: kutudaki "paylaşan kişi / shared by"  a dokunulduğunda
+    ilgili kişinin profiline yönlendirir(DB yapıldıkdan sonra tamamlancak)
+
+  AddingPage.js: giriş yapılmış hesap adına kitap ekleme/paylaşma sayfası
+  */
   return (
   <HomeStack.Navigator>
     <HomeStack.Screen name="HomePage" component={HomePage}
@@ -27,7 +37,8 @@ const HomeWindow = () => {
         }}/>
     <HomeStack.Screen name="DetailsPage" component={DetailsPage}
           options={{
-            headerShown: false
+            title:'Kitap Detayları',
+            headerShown: true
           }}/>
     <HomeStack.Screen name="LookUpProfilePage" component={ProfilePage} 
           options={{
@@ -35,6 +46,7 @@ const HomeWindow = () => {
           }}/>
     <HomeStack.Screen name="AddingPage" component={AddingPage} 
           options={{
+            title:'Kitap Paylaşma',
             headerShown: false
           }}/>
   </HomeStack.Navigator>
@@ -49,7 +61,7 @@ const MainNav = () => {
             title:'Explore',
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-                <MaterialIcons name="explore" size={30} color={focused ? 'blue' : 'gray'} />
+                <MaterialIcons name="explore" size={30} color={focused ? 'darkblue' : 'gray'} />
 
             )
           }}/>
@@ -58,7 +70,7 @@ const MainNav = () => {
             title:'My Favorites',
             headerShown: false,
             tabBarIcon: ({ focused }) => (
-              <MaterialIcons name="favorite-border" size={30} color={focused ? 'blue' : 'gray'} />
+              <MaterialIcons name="favorite-border" size={30} color={focused ? 'red' : 'gray'} />
 
             )/* 
             headerTitleAlign:'center',

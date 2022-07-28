@@ -4,6 +4,8 @@ import React from 'react';
 import Results from '../components/Results';
  
 const HomePage = (props) => {
+  /* Results.js komponenetine filtreleme vb. paremetre gönderilmez ise;
+     tüm verileri işler ve verir (ilk 20 vb ile sınırlandırılacak, next 20 pervious 20 fonksiyonları eklenecek)  */
 
   return (
   <>
