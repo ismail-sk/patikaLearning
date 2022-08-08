@@ -12,6 +12,7 @@ const EnterPage = (props) => {
       <Text style={styles.HeadTitle}>Books Share</Text>
       
       <View style={styles.container}>
+        <View style={styles.container}>
         <View style={styles.inputView}>
         <Icon name="email" size={30} color="black" />
           <TextInput
@@ -36,10 +37,14 @@ const EnterPage = (props) => {
         <TouchableOpacity style={styles.loginBtn}
           onPress={() => props.navigation.navigate("MainBottomNavPage")}>
           <Icon name="login" size={30} color="black" />
-
           <Text style={{fontWeight:"bold", fontSize: 16,}}>LOGIN</Text>
-
         </TouchableOpacity>
+
+        </View>
+      <HrSplit/>
+
+
+
       </View>
     </ImageBackground>
   </View>
@@ -47,6 +52,16 @@ const EnterPage = (props) => {
 }
 
 export default EnterPage
+
+const HrSplit = () => {
+  
+  return (
+  <View style={{ flexDirection:'row', alignItems:"center", marginVertical: 15}}>
+    <View style={{height:2, width: "25%", backgroundColor: "lightgrey", margin: 5}}/>
+    <Text style={{marginHorizontal: 7, paddingHorizontal:8, paddingVertical:2, borderRadius:10, color: "white", backgroundColor:"#aaa6"}}>Or Sign-Up</Text>
+    <View style={{height:2, width: "25%", backgroundColor: "lightgrey", margin: 5}}/>
+  </View>
+  )};
 
 const styles = StyleSheet.create({
   container: {
@@ -106,10 +121,10 @@ abox: {
    borderRadius:20,
    height:40,
    alignItems:"center",
-   justifyContent:"center",
    marginTop:40,
    backgroundColor:"#FFFe",
     fontWeight: "bold",
+    paddingHorizontal: 15,
  }
      
 });

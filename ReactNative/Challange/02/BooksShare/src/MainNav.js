@@ -58,16 +58,22 @@ const MainNav = () => {
     <Tab.Navigator>
       <Tab.Screen name="Explore" component={HomeWindow} 
           options={{
-            title:'Explore',
+            //title:'Explore',
             headerShown: false,
+            tabBarLabel: ({focused, color, size}) => (
+              <Text style={{color: focused ? '#009400' : color}}>Explore</Text>
+            ),
             tabBarIcon: ({ focused }) => (
-                <MaterialIcons name="explore" size={30} color={focused ? 'darkblue' : 'gray'} />
+                <MaterialIcons name="explore" size={30} color={focused ? '#009400' : 'gray'} />
 
             )
           }}/>
       <Tab.Screen name="MyFavorites" component={FavoritesPage} 
-          options={{            
-            title:'My Favorites',
+          options={{
+            tabBarLabel: ({focused, color, size}) => (
+              <Text style={{color: focused ? 'red' : color}}>My Favorites</Text>
+            ),
+            //title:'My Favorites',
             headerShown: false,
             tabBarIcon: ({ focused }) => (
               <MaterialIcons name="favorite-border" size={30} color={focused ? 'red' : 'gray'} />
@@ -80,7 +86,10 @@ const MainNav = () => {
           }}/>
       <Tab.Screen name="meProfile" component={ProfilePage} 
           options={{
-            title:'My Profile',
+            tabBarLabel: ({focused, color, size}) => (
+              <Text style={{color: focused ? 'blue' : color}}>My Profile</Text>
+            ),
+            //title:'My Profile',
             tabBarIcon: ({ focused }) => (
               <AntDesign name="profile" size={30} color={focused ? 'blue' : 'gray'} />
 
